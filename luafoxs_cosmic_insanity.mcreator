@@ -22,13 +22,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/luafoxs_cosmic_insanity/neoforge/biome_modifier/crystal_ore_biome_modifier.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/configured_feature/crystal_ore.json",
           "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/crystal_ore.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/crystal_ore.json",
           "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/crystal_ore.json",
-          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/placed_feature/crystal_ore.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/crystal_ore.json",
           "src/main/java/io/github/luafoxscosmicinsanity/block/CrystalOreBlock.java",
-          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/configured_feature/crystal_ore.json"
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/crystal_ore.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/placed_feature/crystal_ore.json"
         ]
       }
     },
@@ -40,8 +40,8 @@
       "registry_name": "cosmic_crystal_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal_pickaxe.json",
-          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmicCrystalPickaxeItem.java"
+          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmicCrystalPickaxeItem.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal_pickaxe.json"
         ]
       }
     },
@@ -53,8 +53,8 @@
       "registry_name": "pick",
       "metadata": {
         "files": [
-          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/pick.json",
-          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/pick.json"
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/pick.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/pick.json"
         ]
       }
     },
@@ -107,11 +107,11 @@
       "metadata": {
         "files": [
           "src/main/java/io/github/luafoxscosmicinsanity/block/CosmicGeneratorBlock.java",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmic_generator.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_generator.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmic_generator.json",
           "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/cosmic_generator.json",
-          "src/main/java/io/github/luafoxscosmicinsanity/block/entity/CosmicGeneratorBlockEntity.java"
+          "src/main/java/io/github/luafoxscosmicinsanity/block/entity/CosmicGeneratorBlockEntity.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmic_generator.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_generator.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmic_generator.json"
         ]
       }
     },
@@ -180,11 +180,11 @@
       "registry_name": "cosmic_crystal_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmic_crystal_block.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmicCrystalBlockBlock.java",
           "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/cosmic_crystal_block.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal_block.json",
           "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmic_crystal_block.json",
-          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmicCrystalBlockBlock.java"
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmic_crystal_block.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal_block.json"
         ]
       }
     },
@@ -233,8 +233,8 @@
       "registry_name": "comsic_crystal_sword",
       "metadata": {
         "files": [
-          "src/main/java/io/github/luafoxscosmicinsanity/item/ComsicCrystalSwordItem.java",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/comsic_crystal_sword.json"
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/comsic_crystal_sword.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/item/ComsicCrystalSwordItem.java"
         ]
       }
     },
@@ -272,17 +272,17 @@
       "registry_name": "cosmos",
       "metadata": {
         "files": [
-          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmosPortalBlock.java",
-          "src/main/java/io/github/luafoxscosmicinsanity/world/dimension/CosmosDimension.java",
-          "src/main/resources/data/luafoxs_cosmic_insanity/dimension/cosmos.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_portal_ew.json",
-          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmosItem.java",
-          "src/main/java/io/github/luafoxscosmicinsanity/world/teleporter/CosmosTeleporter.java",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmos_portal.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmos.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_portal_ns.json",
           "src/main/java/io/github/luafoxscosmicinsanity/world/teleporter/CosmosPortalShape.java",
-          "src/main/resources/data/luafoxs_cosmic_insanity/dimension_type/cosmos.json"
+          "src/main/java/io/github/luafoxscosmicinsanity/world/teleporter/CosmosTeleporter.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmosItem.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmosPortalBlock.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmos.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_portal_ew.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmos_portal.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/dimension/cosmos.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/dimension_type/cosmos.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_portal_ns.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/world/dimension/CosmosDimension.java"
         ]
       }
     },
@@ -306,14 +306,14 @@
       "registry_name": "cosmos_crystal_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/placed_feature/cosmos_crystal_ore.json",
           "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/cosmos_crystal_ore.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_crystal_ore.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmos_crystal_ore.json",
           "src/main/java/io/github/luafoxscosmicinsanity/block/CosmosCrystalOreBlock.java",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmos_crystal_ore.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmos_crystal_ore.json",
           "src/main/resources/data/luafoxs_cosmic_insanity/neoforge/biome_modifier/cosmos_crystal_ore_biome_modifier.json",
-          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/configured_feature/cosmos_crystal_ore.json"
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/configured_feature/cosmos_crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/placed_feature/cosmos_crystal_ore.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmos_crystal_ore.json"
         ]
       }
     },
@@ -359,12 +359,12 @@
       "registry_name": "comsic_cloner",
       "metadata": {
         "files": [
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/comsic_cloner.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/ComsicClonerBlock.java",
+          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/comsic_cloner.json",
           "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/comsic_cloner.json",
           "src/main/java/io/github/luafoxscosmicinsanity/block/entity/ComsicClonerBlockEntity.java",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/comsic_cloner.json",
-          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/comsic_cloner.json",
-          "src/main/java/io/github/luafoxscosmicinsanity/block/ComsicClonerBlock.java",
-          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/comsic_cloner.json"
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/comsic_cloner.json"
         ]
       }
     },
@@ -376,10 +376,10 @@
       "registry_name": "cloner",
       "metadata": {
         "files": [
-          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerButtonMessage.java",
-          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerSlotMessage.java",
           "src/main/java/io/github/luafoxscosmicinsanity/client/gui/ClonerScreen.java",
-          "src/main/java/io/github/luafoxscosmicinsanity/world/inventory/ClonerMenu.java"
+          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerButtonMessage.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/world/inventory/ClonerMenu.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerSlotMessage.java"
         ]
       }
     },
@@ -489,21 +489,21 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
-      "~CrystalOre@CUSTOM:CrystalOre",
       "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
-      "~CosmicGenerator@CUSTOM:CosmicGenerator"
-    ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
-      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock"
+      "~CosmicGenerator@CUSTOM:CosmicGenerator",
+      "~CrystalOre@CUSTOM:CrystalOre"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
       "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe"
     ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
+      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock"
+    ],
     "ITEMS:minecraft:swords": [
-      "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword",
-      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
+      "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword"
     ],
     "ITEMS:minecraft:axes": [
       "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
@@ -533,16 +533,16 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModMenus.java",
-      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModScreens.java",
       "src/main/java/io/github/luafoxscosmicinsanity/network/MenuStateUpdateMessage.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModScreens.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModMenus.java",
       "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModBlocks.java",
       "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModBlockEntities.java",
       "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModItems.java",
       "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModTabs.java",
       "src/main/java/io/github/luafoxscosmicinsanity/LuafoxsCosmicInsanityMod.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

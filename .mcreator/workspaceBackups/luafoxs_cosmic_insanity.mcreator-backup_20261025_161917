@@ -328,6 +328,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -360,9 +376,107 @@
       "registry_name": "cloner",
       "metadata": {
         "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerButtonMessage.java",
           "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerSlotMessage.java",
           "src/main/java/io/github/luafoxscosmicinsanity/client/gui/ClonerScreen.java",
           "src/main/java/io/github/luafoxscosmicinsanity/world/inventory/ClonerMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerInventorySlotAutomationTakeCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_inventory_slot_automation_take_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ComsicClonerInventorySlotAutomationTakeConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerInventorySlotAutomationPlaceCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_inventory_slot_automation_place_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ComsicClonerInventorySlotAutomationPlaceConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GotoStats",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goto_stats",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GotoStatsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/comsic_cloner_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateCCR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_ccr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/create_ccr.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/create_ccr.json"
         ]
       }
     }
@@ -388,8 +502,8 @@
       "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe"
     ],
     "ITEMS:minecraft:swords": [
-      "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
-      "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword"
+      "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword",
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
     ],
     "ITEMS:minecraft:axes": [
       "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
@@ -413,7 +527,8 @@
       "item.luafoxs_cosmic_insanity.cosmic_multi_tool": "Cosmic Multi Tool",
       "item.luafoxs_cosmic_insanity.cosmos": "Cosmos Portal Igniter",
       "block.luafoxs_cosmic_insanity.cosmos_crystal_ore": "Cosmos Crystal Ore",
-      "block.luafoxs_cosmic_insanity.comsic_cloner": "Comsic Cloner"
+      "block.luafoxs_cosmic_insanity.comsic_cloner": "Comsic Cloner",
+      "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS"
     }
   },
   "metadata": {
@@ -437,7 +552,7 @@
   "workspaceSettings": {
     "modid": "luafoxs_cosmic_insanity",
     "modName": "LuaFox\u0027s Cosmic Insanity",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "TheLuaFox86",
     "websiteURL": "https://theluafox86.github.io/luafoxscosmicinsanity",
     "license": "MIT",
@@ -447,7 +562,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
-    "credits": " ",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "io.github.luafoxscosmicinsanity"
   },
   "mcreatorVersion": 202600233518

@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="luafoxs_cosmic_insanity"
-version="0.0.1"
+version="0.1.0"
 displayName="LuaFox's Cosmic Insanity"
 displayURL="https://theluafox86.github.io/luafoxscosmicinsanity"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
