@@ -1,0 +1,16 @@
+{
+  "item.luafoxs_cosmic_insanity.cosmic_crystal": "Cosmic Crystal",
+  "block.luafoxs_cosmic_insanity.crystal_ore": "Crystal Ore",
+  "item.luafoxs_cosmic_insanity.cosmic_crystal_pickaxe": "Cosmic Crystal Pickaxe",
+  "item_group.luafoxs_cosmic_insanity.cosmic_insanity": "Cosmic Insanity",
+  "block.luafoxs_cosmic_insanity.cosmic_generator": "Cosmic Generator",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty": "Stats",
+  "gui.luafoxs_cosmic_insanity.stats.label_stored_energy": "Stored Energy",
+  "block.luafoxs_cosmic_insanity.cosmic_crystal_block": "Cosmic Crystal Block",
+  "item.luafoxs_cosmic_insanity.comsic_crystal_sword": "Comsic Crystal Sword",
+  "item.luafoxs_cosmic_insanity.cosmic_multi_tool": "Cosmic Multi Tool",
+  "item.luafoxs_cosmic_insanity.cosmos": "Cosmos Portal Igniter",
+  "block.luafoxs_cosmic_insanity.cosmos_crystal_ore": "Cosmos Crystal Ore",
+  "block.luafoxs_cosmic_insanity.comsic_cloner": "Comsic Cloner",
+  "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS"
+}

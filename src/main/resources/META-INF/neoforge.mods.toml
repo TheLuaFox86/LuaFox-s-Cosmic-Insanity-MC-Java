@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="luafoxs_cosmic_insanity"
+version="0.0.1"
+displayName="LuaFox's Cosmic Insanity"
+displayURL="https://theluafox86.github.io/luafoxscosmicinsanity"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="TheLuaFox86"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.luafoxs_cosmic_insanity]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.232,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.luafoxs_cosmic_insanity]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

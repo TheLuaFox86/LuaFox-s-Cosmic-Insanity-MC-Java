@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "luafoxs_cosmic_insanity:blocks/comsic_cloner",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "luafoxs_cosmic_insanity:comsic_cloner"
+        }
+      ]
+    }
+  ]
+}

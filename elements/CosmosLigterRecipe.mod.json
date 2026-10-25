@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:CosmicCrystal",
+      "",
+      "CUSTOM:CosmicGenerator",
+      "Items.FLINT_AND_STEEL",
+      "CUSTOM:CosmicMultiTool",
+      "",
+      "CUSTOM:CosmicCrystalBlock",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:Cosmos",
+    "name": "cosmos_ligter_recipe",
+    "namespace": "mod"
+  }
+}

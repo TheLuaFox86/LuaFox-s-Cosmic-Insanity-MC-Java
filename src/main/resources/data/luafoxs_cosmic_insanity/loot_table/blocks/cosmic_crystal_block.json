@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "luafoxs_cosmic_insanity:blocks/cosmic_crystal_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "luafoxs_cosmic_insanity:cosmic_crystal_block"
+        }
+      ]
+    }
+  ]
+}

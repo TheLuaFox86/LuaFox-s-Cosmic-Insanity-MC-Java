@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal"
+    },
+    "b": {
+      "item": "minecraft:ender_pearl"
+    },
+    "c": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal_block"
+    }
+  },
+  "result": {
+    "id": "luafoxs_cosmic_insanity:cosmic_generator",
+    "count": 1
+  }
+}

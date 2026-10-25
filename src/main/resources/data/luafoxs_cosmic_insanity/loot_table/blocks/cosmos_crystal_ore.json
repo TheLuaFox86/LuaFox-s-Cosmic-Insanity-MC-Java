@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "luafoxs_cosmic_insanity:blocks/cosmos_crystal_ore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "luafoxs_cosmic_insanity:cosmic_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "cosmicpickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Cosmic Multi Tool",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:CosmicInsanity",
+      "COMBAT"
+    ],
+    "efficiency": 500.0,
+    "attackSpeed": 20.0,
+    "enchantability": 2,
+    "damageVsEntity": 120.0,
+    "usageCount": 99999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:CosmicCrystal"
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

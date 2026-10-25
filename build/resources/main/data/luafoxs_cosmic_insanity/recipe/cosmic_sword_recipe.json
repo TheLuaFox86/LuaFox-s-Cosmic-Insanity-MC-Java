@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "luafoxs_cosmic_insanity:comsic_crystal_sword",
+    "count": 1
+  }
+}

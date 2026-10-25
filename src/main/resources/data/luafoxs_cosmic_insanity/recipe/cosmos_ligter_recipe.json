@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal"
+    },
+    "b": {
+      "item": "luafoxs_cosmic_insanity:cosmic_generator"
+    },
+    "c": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "d": {
+      "item": "luafoxs_cosmic_insanity:cosmic_multi_tool"
+    },
+    "e": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal_block"
+    }
+  },
+  "result": {
+    "id": "luafoxs_cosmic_insanity:cosmos",
+    "count": 1
+  }
+}

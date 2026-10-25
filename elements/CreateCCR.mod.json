@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.DIAMOND"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 200.0,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": "Items.DIAMOND",
+    "blastingReturnStack": "CUSTOM:CosmicCrystal",
+    "name": "create_ccr",
+    "namespace": "mod"
+  }
+}

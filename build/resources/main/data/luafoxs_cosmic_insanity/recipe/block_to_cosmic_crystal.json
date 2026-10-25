@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "ores",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal_block"
+    }
+  ],
+  "result": {
+    "id": "luafoxs_cosmic_insanity:cosmic_crystal",
+    "count": 9
+  }
+}

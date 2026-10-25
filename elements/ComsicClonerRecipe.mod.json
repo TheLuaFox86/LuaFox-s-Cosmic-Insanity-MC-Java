@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.DIAMOND",
+      "CUSTOM:CosmicCrystal",
+      "Items.DIAMOND",
+      "CUSTOM:CosmicCrystalBlock",
+      "CUSTOM:CosmicGenerator",
+      "CUSTOM:CosmicCrystalBlock",
+      "Items.DIAMOND",
+      "CUSTOM:CosmicCrystalBlock",
+      "Items.DIAMOND"
+    ],
+    "recipeReturnStack": "CUSTOM:ComsicCloner",
+    "name": "comsic_cloner_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "cosmicpickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Cosmic Crystal Pickaxe",
+    "rarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS",
+      "CUSTOM:CosmicInsanity"
+    ],
+    "efficiency": 9999.0,
+    "attackSpeed": 50.0,
+    "enchantability": 15,
+    "damageVsEntity": 22.0,
+    "usageCount": 999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:CosmicCrystal"
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

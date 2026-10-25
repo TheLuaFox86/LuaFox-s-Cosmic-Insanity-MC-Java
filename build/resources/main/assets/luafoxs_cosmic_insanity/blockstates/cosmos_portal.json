@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "luafoxs_cosmic_insanity:block/cosmos_portal_ew"
+    },
+    "axis=x": {
+      "model": "luafoxs_cosmic_insanity:block/cosmos_portal_ns"
+    }
+  }
+}

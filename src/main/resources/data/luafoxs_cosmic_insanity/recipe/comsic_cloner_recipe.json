@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal"
+    },
+    "c": {
+      "item": "luafoxs_cosmic_insanity:cosmic_crystal_block"
+    },
+    "d": {
+      "item": "luafoxs_cosmic_insanity:cosmic_generator"
+    }
+  },
+  "result": {
+    "id": "luafoxs_cosmic_insanity:comsic_cloner",
+    "count": 8
+  }
+}

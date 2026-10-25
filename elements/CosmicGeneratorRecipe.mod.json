@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:CosmicCrystal",
+      "CUSTOM:CosmicCrystal",
+      "CUSTOM:CosmicCrystal",
+      "CUSTOM:CosmicCrystal",
+      "Items.ENDER_PEARL",
+      "CUSTOM:CosmicCrystal",
+      "CUSTOM:CosmicCrystalBlock",
+      "CUSTOM:CosmicCrystalBlock",
+      "CUSTOM:CosmicCrystalBlock"
+    ],
+    "recipeReturnStack": "CUSTOM:CosmicGenerator",
+    "name": "cosmic_generator_recipe",
+    "namespace": "mod"
+  }
+}

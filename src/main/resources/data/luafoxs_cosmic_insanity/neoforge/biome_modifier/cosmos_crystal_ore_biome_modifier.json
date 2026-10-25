@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "luafoxs_cosmic_insanity:cosmos_crystal_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 200,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "luafoxs_cosmic_insanity:cosmic_crystal"
+  }
+}

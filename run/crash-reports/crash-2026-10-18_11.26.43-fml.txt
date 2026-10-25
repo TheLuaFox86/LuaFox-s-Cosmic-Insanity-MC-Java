@@ -1,0 +1,91 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2026-10-18 11:26:43
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Mod loading issue for: jei --
+Details:
+	Mod file: /home/luafox/Documents/LuaFoxs-cosmic-insanity/run/mods/jei-1.21.1-neoforge-19.57.0.449.jar
+	Failure message: Mod jei requires neoforge 21.1.238 or above
+		Currently, neoforge is 21.1.232
+		
+	Mod version: 19.57.0.449
+	Mod issues URL: https://github.com/mezz/JustEnoughItems/issues?q=is%3Aissue
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: particle_core --
+Details:
+	Mod file: /home/luafox/Documents/LuaFoxs-cosmic-insanity/run/mods/particle_core-0.3.3+1.21+neoforge.jar
+	Failure message: Mod particle_core requires kotlinforforge 5.3.0 or above
+		Currently, kotlinforforge is not installed
+		
+	Mod version: 0.3.3+1.21+neoforge
+	Mod issues URL: https://github.com/fzzyhmstrs/pc/issues
+	Exception message: <No associated exception found>
+
+-- Mod loading issue for: particle_core --
+Details:
+	Mod file: /home/luafox/Documents/LuaFoxs-cosmic-insanity/run/mods/particle_core-0.3.3+1.21+neoforge.jar
+	Failure message: Mod particle_core requires fzzy_config 0.7.5 or above
+		Currently, fzzy_config is not installed
+		
+	Mod version: 0.3.3+1.21+neoforge
+	Mod issues URL: https://github.com/fzzyhmstrs/pc/issues
+	Exception message: <No associated exception found>
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 6.12.111+deb13-amd64
+	Java Version: 21.0.12.1, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 106664024 bytes (101 MiB) / 500170752 bytes (477 MiB) up to 1533018112 bytes (1462 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+	Identifier: Intel64 Family 6 Model 61 Stepping 4
+	Microarchitecture: Broadwell (Client)
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: HD Graphics 5500
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x1616
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 8981.55
+	Virtual memory used (MiB): 7845.50
+	Swap memory total (MiB): 6058.00
+	Swap memory used (MiB): 2941.02
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 2850.07, total: 2923.55
+	Space in storage for workdir (MiB): available: 125610.41, total: 232356.77
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.232.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.232.jar                             |NeoForge                      |neoforge                      |21.1.232            |Manifest: NOSIGNATURE

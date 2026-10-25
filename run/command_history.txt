@@ -1,0 +1,28 @@
+/give @s luafoxs_cosmic_insanity:crystal_ore
+/gamemode s
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/give @s luafoxs_cosmic_insanity:cosmic_generator
+/give @s ae2:energy_cell 122
+/give @s minecraft:command_block
+/clear
+/give @s ae2:energy_cell 122
+/effect give @s minecraft:night_vision infinite
+/gamemode survival
+/give @s minecraft:diamond_shovel
+/give @s minecraft:diamond_pickaxe
+/give @s minecraft:oak_log 123
+/enchant @s minecraft:efficiency 5
+/fill ~ ~-1 ~ ~10 ~-2 ~10
+/fill ~ ~-1 ~ ~10 ~-2 ~10 luafoxs_cosmic_insanity:crystal_ore
+/effect give @s minecraft:haste infinite 10
+/effect give @s minecraft:haste infinite 255
+/give @s minecraft:ender_pearl 199
+/effect clear @s minecraft:haste
+/gamemode creative
+/summon minecraft:zombie
+/summon minecraft:ender_dragon
+/give @s luafoxs_cosmic_insanity:comsic_crystal_sword
