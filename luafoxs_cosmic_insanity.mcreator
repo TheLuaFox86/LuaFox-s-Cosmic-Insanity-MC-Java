@@ -790,7 +790,12 @@
       "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oh_fuck_he_broke_the_economy"
+      "registry_name": "oh_fuck_he_broke_the_economy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/oh_fuck_he_broke_the_economy.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -801,30 +806,30 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~ComsicCloner@CUSTOM:ComsicCloner",
-      "~CosmicGenerator@CUSTOM:CosmicGenerator",
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
       "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
-      "~CrystalOre@CUSTOM:CrystalOre",
-      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe",
-      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
+      "~CosmicGenerator@CUSTOM:CosmicGenerator",
+      "~CrystalOre@CUSTOM:CrystalOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~ComsicCloner@CUSTOM:ComsicCloner",
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
       "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
-      "~CrystalOre@CUSTOM:CrystalOre",
-      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre"
+      "~CrystalOre@CUSTOM:CrystalOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
+      "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe"
     ],
     "ITEMS:minecraft:swords": [
       "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
       "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Cosmos@Blocks.END_STONE"
-    ],
     "ITEMS:minecraft:axes": [
       "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Cosmos@Blocks.END_STONE"
     ]
   },
   "tab_element_order": {},
@@ -853,7 +858,9 @@
       "gui.luafoxs_cosmic_insanity.stats.label_empty6": "?",
       "gui.luafoxs_cosmic_insanity.stats.label_empty7": "?",
       "advancements.going_cosmicly_insane.title": "Going Cosmicly Insane",
-      "advancements.going_cosmicly_insane.descr": "Get Youreself A cosmic crystal and plan WORLD DOMMINATION"
+      "advancements.going_cosmicly_insane.descr": "Get Youreself A cosmic crystal and plan WORLD DOMMINATION",
+      "advancements.oh_fuck_he_broke_the_economy.title": "Oh F*** He Broke The Economy",
+      "advancements.oh_fuck_he_broke_the_economy.descr": "Craft A Cosmic Cloner"
     }
   },
   "metadata": {
@@ -877,7 +884,7 @@
   "workspaceSettings": {
     "modid": "luafoxs_cosmic_insanity",
     "modName": "LuaFox\u0027s Cosmic Insanity",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "TheLuaFox86",
     "websiteURL": "https://theluafox86.github.io/luafoxscosmicinsanity",
     "license": "MIT",

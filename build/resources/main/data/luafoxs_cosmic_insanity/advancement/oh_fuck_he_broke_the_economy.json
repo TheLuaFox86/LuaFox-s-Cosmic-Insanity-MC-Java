@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "advancements.oh_fuck_he_broke_the_economy.title"
+    },
+    "description": {
+      "translate": "advancements.oh_fuck_he_broke_the_economy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oh_fuck_he_broke_the_economy_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "luafoxs_cosmic_insanity:comsic_cloner",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "luafoxs_cosmic_insanity:going_cosmicly_insane"
+}
