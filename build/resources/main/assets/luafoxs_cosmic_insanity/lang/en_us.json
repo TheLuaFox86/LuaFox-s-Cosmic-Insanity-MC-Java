@@ -12,5 +12,15 @@
   "item.luafoxs_cosmic_insanity.cosmos": "Cosmos Portal Igniter",
   "block.luafoxs_cosmic_insanity.cosmos_crystal_ore": "Cosmos Crystal Ore",
   "block.luafoxs_cosmic_insanity.comsic_cloner": "Comsic Cloner",
-  "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS"
+  "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty1": "?",
+  "gui.luafoxs_cosmic_insanity.stats.label_other": "Other",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty2": "?",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty3": "?",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty4": "?",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty5": "?",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty6": "?",
+  "gui.luafoxs_cosmic_insanity.stats.label_empty7": "?",
+  "advancements.going_cosmicly_insane.title": "Going Cosmicly Insane",
+  "advancements.going_cosmicly_insane.descr": "Get Youreself A cosmic crystal and plan WORLD DOMMINATION"
 }

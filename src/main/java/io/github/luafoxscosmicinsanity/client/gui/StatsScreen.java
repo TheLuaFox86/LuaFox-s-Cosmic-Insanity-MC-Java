@@ -10,7 +10,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import io.github.luafoxscosmicinsanity.world.inventory.StatsMenu;
-import io.github.luafoxscosmicinsanity.procedures.StatsWhileThisGUIIsOpenTickProcedure;
+import io.github.luafoxscosmicinsanity.procedures.*;
 import io.github.luafoxscosmicinsanity.init.LuafoxsCosmicInsanityModScreens;
 
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -52,7 +52,7 @@ public class StatsScreen extends AbstractContainerScreen<StatsMenu> implements L
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(SPRITE_0, this.leftPos + 157, this.topPos + 147, Mth.clamp((int) StatsWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z) * 16, 0, 48), 0, 16, 16, 64, 16);
+		guiGraphics.blit(SPRITE_0, this.leftPos + 140, this.topPos + 31, Mth.clamp((int) StatsWhileThisGUIIsOpenTickProcedure.execute(world, x, y, z) * 16, 0, 48), 0, 16, 16, 64, 16);
 		RenderSystem.disableBlend();
 	}
 
@@ -67,8 +67,22 @@ public class StatsScreen extends AbstractContainerScreen<StatsMenu> implements L
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.luafoxs_cosmic_insanity.stats.label_empty"), 8, 4, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.luafoxs_cosmic_insanity.stats.label_stored_energy"), 84, 147, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.luafoxs_cosmic_insanity.stats.label_empty"), 8, 4, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.luafoxs_cosmic_insanity.stats.label_stored_energy"), 49, 20, -12829636, false);
+		guiGraphics.drawString(this.font, StatsEnergyPercentageProcedure.execute(world, x, y, z), 17, 33, -6710887, false);
+		if (StatsOtherVisibleProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, Component.translatable("gui.luafoxs_cosmic_insanity.stats.label_other"), 66, 50, -12829636, false);
+		if (StatsOtherVisibleProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, StatsGetOther1Procedure.execute(world, x, y, z), 85, 63, -6710887, false);
+		if (StatsOtherVisibleProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, GetStats1NameProcedure.execute(world, x, y, z), 8, 62, -6710887, false);
+		if (StatsOtherVisibleProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, GetStats2NameProcedure.execute(world, x, y, z), 9, 84, -6710887, false);
+		guiGraphics.drawString(this.font, GetStats2ValueProcedure.execute(world, x, y, z), 85, 86, -6710887, false);
+		if (StatsOtherVisibleProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, GetStats3NameProcedure.execute(world, x, y, z), 9, 104, -6710887, false);
+		if (StatsOtherVisibleProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, GetStats3ValueProcedure.execute(world, x, y, z), 85, 106, -6710887, false);
 	}
 
 	@Override

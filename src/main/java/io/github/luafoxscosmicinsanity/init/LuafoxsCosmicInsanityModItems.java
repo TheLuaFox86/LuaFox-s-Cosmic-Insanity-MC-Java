@@ -41,7 +41,7 @@ public class LuafoxsCosmicInsanityModItems {
 		COSMIC_MULTI_TOOL = REGISTRY.register("cosmic_multi_tool", CosmicMultiToolItem::new);
 		COSMOS = REGISTRY.register("cosmos", CosmosItem::new);
 		COSMOS_CRYSTAL_ORE = block(LuafoxsCosmicInsanityModBlocks.COSMOS_CRYSTAL_ORE, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
-		COMSIC_CLONER = block(LuafoxsCosmicInsanityModBlocks.COMSIC_CLONER, new Item.Properties().rarity(Rarity.RARE));
+		COMSIC_CLONER = block(LuafoxsCosmicInsanityModBlocks.COMSIC_CLONER, new Item.Properties().stacksTo(16).rarity(Rarity.EPIC).fireResistant());
 	}
 
 	// Start of user code block custom items

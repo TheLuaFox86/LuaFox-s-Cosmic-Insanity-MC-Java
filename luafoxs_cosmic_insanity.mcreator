@@ -160,19 +160,6 @@
       }
     },
     {
-      "name": "StatsUpdateBattery",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stats_update_battery",
-      "metadata": {
-        "dependencies": [],
-        "files": [
-          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsUpdateBatteryProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "CosmicCrystalBlock",
       "type": "block",
       "compiles": true,
@@ -479,6 +466,331 @@
           "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/create_ccr.json"
         ]
       }
+    },
+    {
+      "name": "StatsEnergyPercentage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_energy_percentage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsEnergyPercentageProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StatsGetOther1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_get_other_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsGetOther1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStats1Name",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stats_1_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GetStats1NameProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ClonerUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloner_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ClonerUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStats2Name",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stats_2_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GetStats2NameProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStats3Name",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stats_3_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GetStats3NameProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStats2Value",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stats_2_value",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GetStats2ValueProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStats3Value",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stats_3_value",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GetStats3ValueProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StatsOtherVisible",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_other_visible",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsOtherVisibleProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicGeneratorSpecialInfo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_generator_special_info",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ComsicGeneratorSpecialInfoProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CosmicClonerSpecialInfo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_cloner_special_info",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/CosmicClonerSpecialInfoProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoingCosmiclyInsane",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "going_cosmicly_insane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/going_cosmicly_insane.json"
+        ]
+      }
+    },
+    {
+      "name": "OhFuckHeBrokeTheEconomy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_fuck_he_broke_the_economy"
     }
   ],
   "variable_elements": [],
@@ -488,28 +800,31 @@
       "~CosmicCrystal@CUSTOM:CosmicCrystal"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
-      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
+      "~ComsicCloner@CUSTOM:ComsicCloner",
       "~CosmicGenerator@CUSTOM:CosmicGenerator",
-      "~CrystalOre@CUSTOM:CrystalOre"
+      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
+      "~CrystalOre@CUSTOM:CrystalOre",
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
-      "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe"
+      "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe",
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
-      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock"
+      "~ComsicCloner@CUSTOM:ComsicCloner",
+      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
+      "~CrystalOre@CUSTOM:CrystalOre",
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre"
     ],
     "ITEMS:minecraft:swords": [
       "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
       "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword"
     ],
-    "ITEMS:minecraft:axes": [
-      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Cosmos@Blocks.END_STONE"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
     ]
   },
   "tab_element_order": {},
@@ -528,7 +843,17 @@
       "item.luafoxs_cosmic_insanity.cosmos": "Cosmos Portal Igniter",
       "block.luafoxs_cosmic_insanity.cosmos_crystal_ore": "Cosmos Crystal Ore",
       "block.luafoxs_cosmic_insanity.comsic_cloner": "Comsic Cloner",
-      "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS"
+      "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty1": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_other": "Other",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty2": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty3": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty4": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty5": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty6": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty7": "?",
+      "advancements.going_cosmicly_insane.title": "Going Cosmicly Insane",
+      "advancements.going_cosmicly_insane.descr": "Get Youreself A cosmic crystal and plan WORLD DOMMINATION"
     }
   },
   "metadata": {

@@ -1,0 +1,660 @@
+{
+  "mod_elements": [
+    {
+      "name": "CosmicCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmicCrystalItem.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/neoforge/biome_modifier/crystal_ore_biome_modifier.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/configured_feature/crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/crystal_ore.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/crystal_ore.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CrystalOreBlock.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/crystal_ore.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/placed_feature/crystal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CosmicCrystalPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_crystal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmicCrystalPickaxeItem.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/pick.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/pick.json"
+        ]
+      }
+    },
+    {
+      "name": "CosmicInsanity",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_insanity",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CosmicGeneratorOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_generator_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/CosmicGeneratorOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CosmicGenerator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmicGeneratorBlock.java",
+          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/cosmic_generator.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/entity/CosmicGeneratorBlockEntity.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmic_generator.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_generator.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmic_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "Stats",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/client/gui/StatsScreen.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/world/inventory/StatsMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "StatsWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CosmicCrystalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmicCrystalBlockBlock.java",
+          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/cosmic_crystal_block.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmic_crystal_block.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmic_crystal_block.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_crystal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ItemToCosmicCrystalBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_to_cosmic_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/item_to_cosmic_crystal_block.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/item_to_cosmic_crystal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockToCosmicCrystal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_to_cosmic_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/block_to_cosmic_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "CosmicGeneratorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_generator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/cosmic_generator_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ComsicCrystalSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/comsic_crystal_sword.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/item/ComsicCrystalSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CosmicSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/cosmic_sword_recipe.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/cosmic_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CosmicMultiTool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_multi_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmic_multi_tool.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmicMultiToolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cosmos",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmos",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/world/teleporter/CosmosPortalShape.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/world/teleporter/CosmosTeleporter.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/item/CosmosItem.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmosPortalBlock.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmos.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_portal_ew.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmos_portal.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/dimension/cosmos.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/dimension_type/cosmos.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_portal_ns.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/world/dimension/CosmosDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "CosmosLigterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmos_ligter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/cosmos_ligter_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CosmosCrystalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmos_crystal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/cosmos_crystal_ore.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/CosmosCrystalOreBlock.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/cosmos_crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/neoforge/biome_modifier/cosmos_crystal_ore_biome_modifier.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/cosmos_crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/configured_feature/cosmos_crystal_ore.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/worldgen/placed_feature/cosmos_crystal_ore.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/cosmos_crystal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ComsicClonerOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicCloner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/item/comsic_cloner.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/ComsicClonerBlock.java",
+          "src/main/resources/data/luafoxs_cosmic_insanity/loot_table/blocks/comsic_cloner.json",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/blockstates/comsic_cloner.json",
+          "src/main/java/io/github/luafoxscosmicinsanity/block/entity/ComsicClonerBlockEntity.java",
+          "src/main/resources/assets/luafoxs_cosmic_insanity/models/block/comsic_cloner.json"
+        ]
+      }
+    },
+    {
+      "name": "Cloner",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloner",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/client/gui/ClonerScreen.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerButtonMessage.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/world/inventory/ClonerMenu.java",
+          "src/main/java/io/github/luafoxscosmicinsanity/network/ClonerSlotMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerInventorySlotAutomationTakeCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_inventory_slot_automation_take_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ComsicClonerInventorySlotAutomationTakeConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerInventorySlotAutomationPlaceCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_inventory_slot_automation_place_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "index",
+            "type": "number"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/ComsicClonerInventorySlotAutomationPlaceConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GotoStats",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goto_stats",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GotoStatsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ComsicClonerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comsic_cloner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/comsic_cloner_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CreateCCR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_ccr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/luafoxs_cosmic_insanity/recipe/create_ccr.json",
+          "src/main/resources/data/luafoxs_cosmic_insanity/advancement/recipes/create_ccr.json"
+        ]
+      }
+    },
+    {
+      "name": "StatsEnergyPercentage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_energy_percentage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsEnergyPercentageProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StatsGetOther1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stats_get_other_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/StatsGetOther1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStats1Name",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stats_1_name",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/luafoxscosmicinsanity/procedures/GetStats1NameProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:piglin_loved": [
+      "~CosmicCrystal@CUSTOM:CosmicCrystal"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~ComsicCloner@CUSTOM:ComsicCloner",
+      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
+      "~CrystalOre@CUSTOM:CrystalOre",
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre",
+      "~CosmicGenerator@CUSTOM:CosmicGenerator"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
+      "~CosmicCrystalPickaxe@CUSTOM:CosmicCrystalPickaxe"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~ComsicCloner@CUSTOM:ComsicCloner",
+      "~CosmicCrystalBlock@CUSTOM:CosmicCrystalBlock",
+      "~CrystalOre@CUSTOM:CrystalOre",
+      "~CosmosCrystalOre@CUSTOM:CosmosCrystalOre"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool",
+      "~ComsicCrystalSword@CUSTOM:ComsicCrystalSword"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Cosmos@Blocks.END_STONE"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CosmicMultiTool@CUSTOM:CosmicMultiTool"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.luafoxs_cosmic_insanity.cosmic_crystal": "Cosmic Crystal",
+      "block.luafoxs_cosmic_insanity.crystal_ore": "Crystal Ore",
+      "item.luafoxs_cosmic_insanity.cosmic_crystal_pickaxe": "Cosmic Crystal Pickaxe",
+      "item_group.luafoxs_cosmic_insanity.cosmic_insanity": "Cosmic Insanity",
+      "block.luafoxs_cosmic_insanity.cosmic_generator": "Cosmic Generator",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty": "Stats",
+      "gui.luafoxs_cosmic_insanity.stats.label_stored_energy": "Stored Energy",
+      "block.luafoxs_cosmic_insanity.cosmic_crystal_block": "Cosmic Crystal Block",
+      "item.luafoxs_cosmic_insanity.comsic_crystal_sword": "Comsic Crystal Sword",
+      "item.luafoxs_cosmic_insanity.cosmic_multi_tool": "Cosmic Multi Tool",
+      "item.luafoxs_cosmic_insanity.cosmos": "Cosmos Portal Igniter",
+      "block.luafoxs_cosmic_insanity.cosmos_crystal_ore": "Cosmos Crystal Ore",
+      "block.luafoxs_cosmic_insanity.comsic_cloner": "Comsic Cloner",
+      "gui.luafoxs_cosmic_insanity.cloner.button_stats": "STATS",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty1": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_other": "Other",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty2": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty3": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty4": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty5": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty6": "?",
+      "gui.luafoxs_cosmic_insanity.stats.label_empty7": "?"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/io/github/luafoxscosmicinsanity/network/MenuStateUpdateMessage.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModScreens.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModMenus.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModBlocks.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModBlockEntities.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModItems.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/init/LuafoxsCosmicInsanityModTabs.java",
+      "src/main/java/io/github/luafoxscosmicinsanity/LuafoxsCosmicInsanityMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "luafoxs_cosmic_insanity",
+    "modName": "LuaFox\u0027s Cosmic Insanity",
+    "version": "0.1.0",
+    "author": "TheLuaFox86",
+    "websiteURL": "https://theluafox86.github.io/luafoxscosmicinsanity",
+    "license": "MIT",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "io.github.luafoxscosmicinsanity"
+  },
+  "mcreatorVersion": 202600233518
+}

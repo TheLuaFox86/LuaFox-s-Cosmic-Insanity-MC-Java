@@ -19,9 +19,9 @@
       "COMBAT"
     ],
     "efficiency": 4.0,
-    "attackSpeed": 100.0,
+    "attackSpeed": 1.0,
     "enchantability": 15,
-    "damageVsEntity": 500.0,
+    "damageVsEntity": 150.0,
     "usageCount": 99999,
     "glowCondition": {
       "fixedValue": false

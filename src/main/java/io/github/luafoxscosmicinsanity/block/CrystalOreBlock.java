@@ -12,8 +12,8 @@ import net.minecraft.core.BlockPos;
 
 public class CrystalOreBlock extends Block {
 	public CrystalOreBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.AMETHYST).strength(20f, 15f).lightLevel(blockstate -> 3).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
-				.instrument(NoteBlockInstrument.DRAGON));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.AMETHYST).strength(20f, 15f).lightLevel(blockstate -> 3).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true).instrument(NoteBlockInstrument.DRAGON));
 	}
 
 	@Override

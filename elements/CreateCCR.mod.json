@@ -13,7 +13,7 @@
     "cookingTime": 300,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": "Items.DIAMOND",
+    "blastingInputStack": "Items.NETHER_STAR",
     "blastingReturnStack": "CUSTOM:CosmicCrystal",
     "name": "create_ccr",
     "namespace": "mod"

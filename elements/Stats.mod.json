@@ -18,7 +18,7 @@
             "fixedValue": "Stats"
           },
           "color": {
-            "value": -12829636,
+            "value": -16777216,
             "falpha": 0.0
           },
           "hasShadow": false,
@@ -36,8 +36,8 @@
             "fixedValue": 0.0,
             "name": "StatsWhileThisGUIIsOpenTick"
           },
-          "x": 283,
-          "y": 184,
+          "x": 266,
+          "y": 68,
           "locked": false
         }
       },
@@ -53,8 +53,157 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "x": 210,
-          "y": 184,
+          "x": 175,
+          "y": 57,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "?",
+            "name": "StatsEnergyPercentage"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 143,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_other",
+          "text": {
+            "fixedValue": "Other"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "StatsOtherVisible",
+          "x": 192,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty3",
+          "text": {
+            "fixedValue": "?",
+            "name": "StatsGetOther1"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "StatsOtherVisible",
+          "x": 211,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty2",
+          "text": {
+            "fixedValue": "?",
+            "name": "GetStats1Name"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "StatsOtherVisible",
+          "x": 134,
+          "y": 99,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty4",
+          "text": {
+            "fixedValue": "?",
+            "name": "GetStats2Name"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "StatsOtherVisible",
+          "x": 135,
+          "y": 121,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty5",
+          "text": {
+            "fixedValue": "?",
+            "name": "GetStats2Value"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 211,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty6",
+          "text": {
+            "fixedValue": "?",
+            "name": "GetStats3Name"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "StatsOtherVisible",
+          "x": 135,
+          "y": 141,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty7",
+          "text": {
+            "fixedValue": "?",
+            "name": "GetStats3Value"
+          },
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "displayCondition": "StatsOtherVisible",
+          "x": 211,
+          "y": 143,
           "locked": false
         }
       }

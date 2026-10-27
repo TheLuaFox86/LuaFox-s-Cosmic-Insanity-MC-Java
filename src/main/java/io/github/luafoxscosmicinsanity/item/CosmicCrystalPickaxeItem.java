@@ -42,6 +42,6 @@ public class CosmicCrystalPickaxeItem extends PickaxeItem {
 	};
 
 	public CosmicCrystalPickaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 21f, 46f)).rarity(Rarity.RARE).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 14f, -3f)).rarity(Rarity.RARE).fireResistant());
 	}
 }

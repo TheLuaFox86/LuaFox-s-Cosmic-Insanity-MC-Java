@@ -19,9 +19,9 @@
       "CUSTOM:CosmicInsanity"
     ],
     "efficiency": 9999.0,
-    "attackSpeed": 50.0,
+    "attackSpeed": 1.0,
     "enchantability": 15,
-    "damageVsEntity": 22.0,
+    "damageVsEntity": 15.0,
     "usageCount": 999,
     "glowCondition": {
       "fixedValue": false

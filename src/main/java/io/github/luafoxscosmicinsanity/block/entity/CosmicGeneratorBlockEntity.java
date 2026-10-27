@@ -5,13 +5,13 @@ import net.neoforged.neoforge.energy.EnergyStorage;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.WorldlyContainer;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.IntTag;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.NonNullList;
@@ -23,9 +23,6 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-import io.netty.buffer.Unpooled;
-
-import io.github.luafoxscosmicinsanity.world.inventory.StatsMenu;
 import io.github.luafoxscosmicinsanity.init.LuafoxsCosmicInsanityModBlockEntities;
 
 public class CosmicGeneratorBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
@@ -84,7 +81,7 @@ public class CosmicGeneratorBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new StatsMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return ChestMenu.threeRows(id, inventory);
 	}
 
 	@Override

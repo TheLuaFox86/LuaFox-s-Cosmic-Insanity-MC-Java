@@ -40,7 +40,8 @@
     "customProperties": [],
     "name": "Cosmic Generator",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "ComsicGeneratorSpecialInfo"
     },
     "hardness": 1.0,
     "resistance": 10.0,
@@ -106,7 +107,6 @@
       "fixedValue": 7.0
     },
     "hasInventory": true,
-    "guiBoundTo": "Stats",
     "openGUIOnRightClick": true,
     "inventorySize": 0,
     "inventoryStackSize": 99,

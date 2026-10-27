@@ -4,7 +4,7 @@
   "experience": 200,
   "cookingtime": 300,
   "ingredient": {
-    "item": "minecraft:diamond"
+    "item": "minecraft:nether_star"
   },
   "result": {
     "id": "luafoxs_cosmic_insanity:cosmic_crystal"

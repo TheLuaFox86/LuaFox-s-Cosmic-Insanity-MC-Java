@@ -26,7 +26,7 @@ public class StatsMenu extends AbstractContainerMenu implements LuafoxsCosmicIns
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 3)
+			if (!this.containsKey(key) && this.size() >= 11)
 				return null;
 			return super.put(key, value);
 		}

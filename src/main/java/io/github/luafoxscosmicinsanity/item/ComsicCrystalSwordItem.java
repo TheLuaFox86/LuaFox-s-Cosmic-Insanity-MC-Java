@@ -42,6 +42,6 @@ public class ComsicCrystalSwordItem extends SwordItem {
 	};
 
 	public ComsicCrystalSwordItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 499f, 96f)).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 149f, -3f)).fireResistant());
 	}
 }

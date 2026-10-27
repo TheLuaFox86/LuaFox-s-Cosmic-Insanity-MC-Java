@@ -60,7 +60,7 @@
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

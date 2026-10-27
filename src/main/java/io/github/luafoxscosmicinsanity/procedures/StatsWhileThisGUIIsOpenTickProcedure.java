@@ -12,16 +12,10 @@ public class StatsWhileThisGUIIsOpenTickProcedure {
 	public static double execute(LevelAccessor world, double x, double y, double z) {
 		double BatteryIndex = 0;
 		boolean nil = false;
-		return Math.floor((1 / (getMaxEnergyStored(world, BlockPos.containing(x, y, z), null) / 4d)) * getEnergyStored(world, BlockPos.containing(x, y, z), null)) - 1;
-	}
-
-	public static int getMaxEnergyStored(LevelAccessor level, BlockPos pos, Direction direction) {
-		if (level instanceof ILevelExtension levelExtension) {
-			IEnergyStorage energyStorage = levelExtension.getCapability(Capabilities.EnergyStorage.BLOCK, pos, direction);
-			if (energyStorage != null)
-				return energyStorage.getMaxEnergyStored();
+		if (getEnergyStored(world, BlockPos.containing(x, y, z), null) == 0) {
+			return 0;
 		}
-		return 0;
+		return Math.floor((1 / (getMaxEnergyStored(world, BlockPos.containing(x, y, z), null) / 4d)) * getEnergyStored(world, BlockPos.containing(x, y, z), null));
 	}
 
 	public static int getEnergyStored(LevelAccessor level, BlockPos pos, Direction direction) {
@@ -29,6 +23,15 @@ public class StatsWhileThisGUIIsOpenTickProcedure {
 			IEnergyStorage energyStorage = levelExtension.getCapability(Capabilities.EnergyStorage.BLOCK, pos, direction);
 			if (energyStorage != null)
 				return energyStorage.getEnergyStored();
+		}
+		return 0;
+	}
+
+	public static int getMaxEnergyStored(LevelAccessor level, BlockPos pos, Direction direction) {
+		if (level instanceof ILevelExtension levelExtension) {
+			IEnergyStorage energyStorage = levelExtension.getCapability(Capabilities.EnergyStorage.BLOCK, pos, direction);
+			if (energyStorage != null)
+				return energyStorage.getMaxEnergyStored();
 		}
 		return 0;
 	}

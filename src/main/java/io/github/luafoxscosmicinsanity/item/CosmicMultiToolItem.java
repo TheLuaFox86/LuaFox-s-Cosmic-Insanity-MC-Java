@@ -31,7 +31,7 @@ public class CosmicMultiToolItem extends TieredItem {
 
 		@Override
 		public float getSpeed() {
-			return 500f;
+			return 9999f;
 		}
 
 		@Override
@@ -56,8 +56,8 @@ public class CosmicMultiToolItem extends TieredItem {
 	};
 
 	public CosmicMultiToolItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 119, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
-				.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, 16, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()).fireResistant());
+		super(TOOL_TIER, new Item.Properties().attributes(ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, 149, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
+				.add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, -3, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build()).fireResistant());
 	}
 
 	@Override
@@ -73,7 +73,7 @@ public class CosmicMultiToolItem extends TieredItem {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return 500f;
+		return 9999f;
 	}
 
 	@Override

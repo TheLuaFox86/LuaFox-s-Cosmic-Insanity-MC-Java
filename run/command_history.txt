@@ -26,3 +26,15 @@
 /summon minecraft:zombie
 /summon minecraft:ender_dragon
 /give @s luafoxs_cosmic_insanity:comsic_crystal_sword
+/give Dev minecraft:ender_pearl 3
+/give @p ender_pearl[attribute_modifiers={modifiers:[{id:"speedy",type:"generic.attack_speed",amount:100.0,operation:"add_value",slot:"hand"}]}] 16
+/item replace entity @a hotbar.0 with ender_pearl 16
+/give @s minecraft:command_block
+/gamemode survival
+/give @s minecraft:golden_carrot 128
+/effect give @s minecraft:regeneration infinite 4
+/effect give @s minecraft:absorption infinite 122
+/effect give @s minecraft:health_boost infinite 23
+/effect give @s minecraft:health_boost infinite 100
+/gamemode creative
+/summon minecraft:ender_dragon
